@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    :root { --bg: #0f172a; --card: #1e293b; --accent: #38bdf8; --text: #f1f5f9; }
+    body { width: 320px; background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; padding: 16px; margin: 0; }
+    .header { font-size: 1.1rem; font-weight: bold; margin-bottom: 15px; color: var(--accent); display: flex; justify-content: space-between; }
+    .tracker { background: var(--card); padding: 10px; border-radius: 8px; margin-bottom: 15px; border: 1px solid #334155; }
+    .progress-bg { background: #334155; height: 6px; border-radius: 3px; margin-top: 8px; overflow: hidden; }
+    #progress-bar { background: var(--accent); width: 40%; height: 100%; transition: width 0.3s; }
+    button { width: 100%; padding: 12px; background: var(--accent); border: none; border-radius: 6px; color: #0f172a; font-weight: bold; cursor: pointer; transition: 0.2s; }
+    button:hover { opacity: 0.9; transform: translateY(-1px); }
+    button:disabled { background: #64748b; cursor: not-allowed; }
+    #results { display: none; margin-top: 15px; border-top: 1px solid #334155; padding-top: 15px; }
+    .badge { padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; float: right; }
+    .WORTHY { background: #10b981; color: white; }
+    .CAUTION { background: #f59e0b; color: white; }
+    .WASTE { background: #ef4444; color: white; }
+    .summary { font-size: 0.9rem; line-height: 1.5; color: #cbd5e1; margin-top: 10px; }
+    .loader { text-align: center; display: none; margin: 10px 0; font-size: 0.8rem; color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span>Click-Bait Filter</span>
+    <span id="score-text" style="font-size: 0.8rem; opacity: 0.7;"></span>
+  </div>
+
+  <div class="tracker">
+    <div style="display: flex; justify-content: space-between; font-size: 0.8rem;">
+      <span>Monthly Limit</span>
+      <span id="usage-label">2 / 5 Reads</span>
+    </div>
+    <div class="progress-bg"><div id="progress-bar"></div></div>
+  </div>
+
+  <button id="analyze-btn">Analyze Article Content</button>
+  <div id="loader" class="loader">AI is reading...</div>
+
+  <div id="results">
+    <div><strong>Verdict:</strong> <span id="verdict-badge" class="badge"></span></div>
+    <p id="summary" class="summary"></p>
+    <button id="use-limit-btn" style="background: transparent; border: 1px solid var(--accent); color: var(--accent); margin-top: 10px;">I'll read this (Use 1 Credit)</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
