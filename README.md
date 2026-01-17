@@ -42,8 +42,9 @@ Click-bait-Filter is a **Chrome Extension** that:
 ## 👥 Team Members
 
 | Name | GitHub Profile |
-|-----|---------------|
-| **Piyali Barman** | [piyali2608](https://github.com/piyali2608) |
-| **Shree Goswami** | [Shree2604](https://github.com/Shree2604) |
+|------|----------------|
+| **Piyali Barman** | [@piyali2608](https://github.com/piyali2608) |
+| **Shree Goswami** | [@shreeg25](https://github.com/shreeg25) |
+
 
   
