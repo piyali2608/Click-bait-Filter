@@ -39,4 +39,11 @@ Click-bait-Filter is a **Chrome Extension** that:
 - **Platform:** Google Chrome Extension  
 - **APIs:** Google AI APIs
 
+## 👥 Team Members
+
+| Name | GitHub Profile |
+|-----|---------------|
+| **Piyali Barman** | [piyali2608](https://github.com/piyali2608) |
+| **Shree Goswami** | [Shree2604](https://github.com/Shree2604) |
+
   
