@@ -22,6 +22,21 @@ Click-bait-Filter is a **Chrome Extension** that:
 - Rates the level of clickbait using AI
 - Helps users decide whether to open the link or skip it
 
+## 📁 Project Structure (Current)
+
+```bash
+Click-bait-Filter/
+│
+├── manifest.json      # Extension configuration & permissions
+├── background.js      # Handles AI requests & background logic
+├── content.js         # Detects links from webpages
+├── popup.html         # Extension popup UI
+├── popup.js           # Popup interaction logic
+├── LICENSE
+└── README.md
+```
+
+
 
 ## ✨ Features
 
@@ -30,6 +45,7 @@ Click-bait-Filter is a **Chrome Extension** that:
 - ⭐ **Clickbait Rating** – Gives a score to judge credibility  
 - 🧩 **Chrome Extension** – Lightweight and easy to use  
 - ⏱️ **Time-Saving** – Avoids unnecessary clicks
+- 
 
   
 ## 🛠️ Tech Stack
