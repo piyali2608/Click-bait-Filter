@@ -36,6 +36,19 @@ Click-bait-Filter/
 └── README.md
 ```
 
+---
+
+## ▶️ How to Run (Development Mode)
+
+1. Clone the repository
+2. Open Chrome Extensions
+3. Enable Developer Mode  
+4. Click Load Unpacked  
+5. Select the project folder  
+
+---
+
+
 
 
 ## ✨ Features
@@ -61,6 +74,12 @@ Click-bait-Filter/
 |------|----------------|
 | **Piyali Barman** | [@piyali2608](https://github.com/piyali2608) |
 | **Shree Goswami** | [@shreeg25](https://github.com/shreeg25) |
+
+## 🚧 Development Status
+
+This project is actively being developed.
+Features and frameworks will continue to evolve.
+
 
 
   
