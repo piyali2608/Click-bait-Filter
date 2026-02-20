@@ -78,7 +78,7 @@ Click-bait-Filter/
 ## 🚧 Development Status
 
 This project is actively being developed.
-Features and frameworks will continue to evolve.
+Implementation, features and frameworks will continue to evolve.
 
 
 
